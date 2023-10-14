@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="TravelerinformationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:integer" name="page"/>
+                <xs:element type="xs:integer" name="per_page"/>
+                <xs:element type="xs:integer" name="totalrecord"/>
+                <xs:element type="xs:integer" name="total_pages"/>
+                <xs:element name="travelers"></xs:element>
+                   
+                 </xs:sequence>
+               </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="adderes"/>
+                                        <xs:element type="xs:string" name="createdat">
+                                        </xs:element>
+                        
+                    
+                
+            
+        
+    
+</xs:schema>

@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "first",
+        "last",
+        "age"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "Courses": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "first",
+        "last",
+        "age",
+        "Courses"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "Courses": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "first",
+        "last",
+        "age",
+        "Courses"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first": {
+          "type": "string"
+        },
+        "last": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "Courses": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "first",
+        "last",
+        "age",
+        "Courses"
+      ]
+    }
+  ]
+}
